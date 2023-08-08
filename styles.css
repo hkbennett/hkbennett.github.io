@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Quicksand:wght@300&display=swap');
+
+
+*{
+  font-family: Lobster;
+  text-align: center;
+}
+
+html {
+  background-color: #95B2CD
+}
+
+nav, a {
+  text-decoration: none;
+}
+
+
+.fonts h2 {
+  display: inline;
+  font-weight: 300;
+  text-align: right;
+  width: 25%;
+  border: 3px solid black;
+  border-radius: 3px;
+  border-style: outset;
+  padding: 5px;
+}
+.colors h2 {
+  display: inline;
+  font-weight: 300;
+  text-align: right;
+  width: 25%;
+  border: 3px solid black;
+  border-radius: 3px;
+  border-style: outset;
+  padding: 5px;
+}
+
+h2::after {
+  content: ""
+}
+
+.blue {
+  background-color: hsl(209, 75%, 50%); 
+}
+.blue-too {
+  background-color: hsl(205, 50%, 50%);
+}
+.baby-blue {
+  background-color: hsl(195, 70%, 60%);
+}
+.baby-bluer {
+  background-color: hsl(200, 80%, 70%);
+}
